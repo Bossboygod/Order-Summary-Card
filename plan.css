@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+.background-image{
+   background-image: url(images/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10% 50%;
+}
+.container{
+    width: 460px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 19px 0px hsl(224, 23%, 55%);
+   
+}
+.dancinggirl img{
+    width: 460px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.head-text h1{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+    padding: 3% 30%;
+    font-size: 23px;
+}
+.center-text{
+    text-align: center;
+    font-family: 'Red hat display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    padding: 0 20%;
+}
+.change{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   border-radius: 25px;
+   background-color: hsl(225, 100%, 98%);
+   margin-top: 7%;
+}
+.change img{
+    padding-left: 15px;
+}
+.change div{
+    padding: 0px 15px 0 20px;
+}
+.change h1{
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.change p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+.change a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    padding-left: 50px;
+}
+.change a:hover{
+    color: hsl(245, 75%, 52%);
+}
+.press{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15% ;
+}
+.press button{
+    border-radius: 25px;
+    width: 320px;
+    margin-bottom: 30px;
+    padding: 5% 10%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 10px 19px 0px hsl(225, 100%, 90%);
+}
+.press button:hover{
+    width: 300px;
+    margin-bottom: 30px;
+    background-color: hsl(245, 64%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    cursor: cell;
+}
+.press a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.press a:hover{
+    color: hsl(223, 47%, 23%);
+}
+.footer{
+    text-align: center;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: hsl(225, 100%, 90%) ;
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:375px) {
+    .container{
+        width: 300px;
+    }
+    .dancinggirl img{
+        width: 300px;
+    }
+    .head-text h1{
+        text-align: center;
+        font-size: 15px;
+    }
+    .change{
+        width: 80%;
+
+    }
+    .change img{
+        padding-left: 5px;
+    }
+    .change div{
+        padding: 0px 7px 0 7px;
+    }
+    .change h1{
+        font-family: 'Red Hat Display';
+        font-weight: 900;
+        color: hsl(223, 47%, 23%);
+    }
+    .change p{
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+        color: hsl(224, 23%, 55%);
+    }
+    .change a{
+        text-decoration: none;
+        color: hsl(224, 23%, 55%);
+        padding-left: 30px;
+    }
+    .press button{
+        width: 250px;
+    }
+    .press button:hover{
+        width: 220px;
+        cursor: pointer;
+    }
+    .press a{
+        font-weight: 300;
+    }
+    .footer{
+        text-align: center;
+        font-family: cursive;
+        font-weight: normal;
+        font-size: 10px;
+        border-radius: 25px;
+        background-color: hsl(225, 100%, 90%) ;
+        color: black;
+    }
+    .footer a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer a:hover{
+        text-decoration: underline;
+    }
+}
